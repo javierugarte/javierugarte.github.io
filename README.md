@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang-es>
 <head>
@@ -6,7 +5,7 @@
 
 <meta name="viewport" content="width=device-width"/>
 <meta name="description" content="Curriculum Vitae de Javier González."/>
-<meta charset="UTF-8"> 
+<meta charset="UTF-8">
 <!-- header color GoogleChromev39-->
 <meta name="theme-color" content="#CF8A05">
 
@@ -26,12 +25,12 @@
 		<div id="headshot" class="quickFade">
 			<img src="headshot.jpg" alt="Javier González" />
 		</div>
-		
+
 		<div id="name">
 			<h1 class="quickFade delayTwo">Javier González</h1>
 			<h2 class="quickFade delayThree">Desarrollador de aplicaciones.</h2>
 		</div>
-		
+
 		<div id="contactDetails" class="quickFade delayFour">
 			<ul>
 				<li>e: <a href="mailto:javierugarte91@gmail.com" target="_blank">javierugarte91@gmail.com</a></li>
@@ -40,26 +39,26 @@
 				<li>
 					<a href="https://www.facebook.com/javier.gonzalezmartin.77?ref=tn_tnmn"  target="_blank">
 							<img src="image/facebook.png" onmouseover="this.src='image/facebook-selected.png';" onmouseout="this.src='image/facebook.png';" alt="Facebook"/>
-					</a> 
+					</a>
 					<a href="https://twitter.com/j_ugarte" target="_blank">
 						<img src="image/twitter.png" onmouseover="this.src='image/twitter-selected.png';" onmouseout="this.src='image/twitter.png';" alt="Twitter"/>
-					</a> 
+					</a>
 					<a href="https://plus.google.com/102005876930324858569/about?utm_source=chrome_ntp_icon&utm_medium=chrome_app&utm_campaign=chrome" target="_blank">
 						<img src="image/google.png" onmouseover="this.src='image/google-selected.png';" onmouseout="this.src='image/google.png';" alt="Google +"/>
-					</a> 
+					</a>
 				</li>
 			</ul>
 		</div>
 		<div class="clear"></div>
 	</div>
-	
+
 	<div id="mainArea" class="quickFade delayFive">
 		<section>
 			<article>
 				<div class="sectionTitle">
 					<h1>Perfil personal</h1>
 				</div>
-				
+
 				<div class="sectionContent">
 					<p>Comencé en el desarrollo de aplicaciones hace unos años, estudiando y aprendiendo todo lo que se puede me especialicé en el desarrollo de aplicaciones móviles, tanto Android como iOS.</p>
 				</div>
@@ -71,7 +70,7 @@
 			<div class="sectionTitle">
 				<h1>Experiencia</h1>
 			</div>
-			
+
 			<div class="sectionContent" >
 
 				<article id="contentLink">
@@ -116,26 +115,26 @@
 			</div>
 			<div class="clear"></div>
 		</section>
-		
-		
+
+
 		<section>
 			<div class="sectionTitle">
 				<h1>Formación académica</h1>
 			</div>
-			
+
 			<div class="sectionContent">
 				<article>
 					<h2>Curso de desarrollo de aplicaciones para móviles</h2>
 					<p class="subDetails">2012 - 2013</p>
 					<p>Deusto formación</p>
 				</article>
-				
+
 				<article>
 					<h2>Técnico Superior en Desarrollo de Aplicaciones Multimedia</h2>
-					<p class="subDetails">2010 - 2012</p>	
-					<p>I.E.S. Ribera del Tajo (Toledo)</p>			
+					<p class="subDetails">2010 - 2012</p>
+					<p>I.E.S. Ribera del Tajo (Toledo)</p>
 				</article>
-				
+
 				<article>
 					<h2>Técnico básico en prevención de riesgos laborales</h2>
 					<p class="subDetails">2011</p>
@@ -144,8 +143,8 @@
 			</div>
 			<div class="clear"></div>
 		</section>
-		
-		
+
+
 		<section>
 			<div class="sectionTitle">
 				<h1>Cualificaciones</h1>
@@ -163,7 +162,7 @@
 					<h2>Lenguajes</h2>
 				</article>
 			</div>
-			
+
 			<div class="sectionContent">
 				<ul class="keySkills">
 					<li>HTML5</li>
@@ -206,5 +205,3 @@ document.getElementById('meses').innerHTML = getTime();
 </script>
 </body>
 </html>
-
-```

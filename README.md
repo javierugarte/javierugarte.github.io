@@ -1,207 +1,70 @@
-<!DOCTYPE html>
-<html lang-es>
-<head>
-<title>Javier González Martín - Currículum Vitae</title>
+<h1>Javier González</h1>
+	<h2>Desarrollador de aplicaciones.</h2>
+		<ul>
+			<li>e: <a href="mailto:javierugarte91@gmail.com" target="_blank">javierugarte91@gmail.com</a></li>
+			<li>w: <a href="http://www.jugarte.es">www.jugarte.es</a></li>
+		</ul>
+		<a href="https://www.facebook.com/javier.gonzalezmartin.77?ref=tn_tnmn"  target="_blank">
+			<img src="image/facebook.png" onmouseover="this.src='image/facebook-selected.png';" onmouseout="this.src='image/facebook.png';" alt="Facebook"/>
+		</a>
+		<a href="https://twitter.com/j_ugarte" target="_blank">
+			<img src="image/twitter.png" onmouseover="this.src='image/twitter-selected.png';" onmouseout="this.src='image/twitter.png';" alt="Twitter"/>
+		</a>
+		<a href="https://plus.google.com/102005876930324858569/about?utm_source=chrome_ntp_icon&utm_medium=chrome_app&utm_campaign=chrome" target="_blank">
+			<img src="image/google.png" onmouseover="this.src='image/google-selected.png';" onmouseout="this.src='image/google.png';" alt="Google +"/>
+		</a>
 
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="Curriculum Vitae de Javier González."/>
-<meta charset="UTF-8">
-<!-- header color GoogleChromev39-->
-<meta name="theme-color" content="#CF8A05">
+<h1>Perfil personal</h1>
+	<p>Comencé en el desarrollo de aplicaciones hace unos años, estudiando y aprendiendo todo lo que se puede me especialicé en el desarrollo de aplicaciones móviles, tanto Android como iOS.</p>
 
-<link rel="shortcut icon" href="favicon.ico" />
-<!--<link rel="shortcut icon" href="favicon.png" type="image/png" />-->
+<h1>Experiencia</h1>
+	<h2>Programador | <a href="http://www.bitban.com/" target="_blank">Bitban Technologies S.L.</a></h2>
+		<p class="subDetails">2014 - Actual</p>
+		<p>Programador de aplicaciones móviles Android e iOS. Apps desarrolladas:</p>
 
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+	<h2>Programador | <a href="http://www.lovetalavera.com/" target="_blank">Buen Arte Visual SL</a></h2>
+		<p class="subDetails">2013</p>
+		<p>Creación de páginas web.</p>
 
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
-<body id="top">
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Javier González" />
-		</div>
+	<h2>Profesor | <a href="http://www.academiaarma.com/" target="_blank">Academia ARMA SLU</a></h2>
+		<p class="subDetails">2013</p>
+		<p>Clases de informática, ofimática y desarrollo web.</p>
 
-		<div id="name">
-			<h1 class="quickFade delayTwo">Javier González</h1>
-			<h2 class="quickFade delayThree">Desarrollador de aplicaciones.</h2>
-		</div>
+	<h2>Programador | <a href="http://www.lechtechsolutions.com/" target="_blank">Lech Tech Solutions S.L.</a></h2>
+		<p class="subDetails">2012</p>
+		<p>Desarrollo de aplicación para tratamiento de ficheros alojados en un servidor (JAVA). <br>
+		Desarrollo de páginas web (HTML5, CSS3, JS, jQuery, PHP) y web adaptadas a móviles (Responsive desing, jQuery Mobile).</p>
 
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li>e: <a href="mailto:javierugarte91@gmail.com" target="_blank">javierugarte91@gmail.com</a></li>
-				<li>w: <a href="http://www.jugarte.es">www.jugarte.es</a></li>
-				<li>m: <a href="tel:+34657195993">657 19 59 93</a></li>
-				<li>
-					<a href="https://www.facebook.com/javier.gonzalezmartin.77?ref=tn_tnmn"  target="_blank">
-							<img src="image/facebook.png" onmouseover="this.src='image/facebook-selected.png';" onmouseout="this.src='image/facebook.png';" alt="Facebook"/>
-					</a>
-					<a href="https://twitter.com/j_ugarte" target="_blank">
-						<img src="image/twitter.png" onmouseover="this.src='image/twitter-selected.png';" onmouseout="this.src='image/twitter.png';" alt="Twitter"/>
-					</a>
-					<a href="https://plus.google.com/102005876930324858569/about?utm_source=chrome_ntp_icon&utm_medium=chrome_app&utm_campaign=chrome" target="_blank">
-						<img src="image/google.png" onmouseover="this.src='image/google-selected.png';" onmouseout="this.src='image/google.png';" alt="Google +"/>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
+<h1>Formación académica</h1>
+	<h2>Curso de desarrollo de aplicaciones para móviles</h2>
+		<p class="subDetails">2012 - 2013</p>
+		<p>Deusto formación</p>
 
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Perfil personal</h1>
-				</div>
+	<h2>Técnico Superior en Desarrollo de Aplicaciones Multimedia</h2>
+		<p class="subDetails">2010 - 2012</p>
+		<p>I.E.S. Ribera del Tajo (Toledo)</p>
 
-				<div class="sectionContent">
-					<p>Comencé en el desarrollo de aplicaciones hace unos años, estudiando y aprendiendo todo lo que se puede me especialicé en el desarrollo de aplicaciones móviles, tanto Android como iOS.</p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Experiencia</h1>
-			</div>
-
-			<div class="sectionContent" >
-
-				<article id="contentLink">
-					<h2>Programador | <a href="http://www.bitban.com/" target="_blank">Bitban Technologies S.L.</a></h2>
-					<p class="subDetails">2014 - Actual (<span id="meses"></span>)</p>
-					<p>Programador de aplicaciones móviles Android e iOS. Apps desarrolladas:</p>
-					<ul class="appMade">
-						<li><img class="iconApp" src="image/apps/sport.png" /></br>
-							<a href="">IOS</a> · <a href="">AND</a>
-						</li>
-						<li><img class="iconApp" src="image/apps/gh.png" /></br>
-							<a href="">IOS</a> · <a href="">AND</a>
-						</li>
-						<li><img class="iconApp" src="image/apps/mitele.png" /></br>
-							<a href="">IOS</a> · <a href="">AND</a>
-						</li>
-						<li><img class="iconApp" src="image/apps/motogp.png" /></br>
-							<a href="">IOS</a> · <a href="">AND</a>
-						</li>
-						<li>
-							<img class="iconApp" src="image/apps/lavoz.png" /></br>
-							<a href="">IOS</a> · <a href="">AND</a>
-						</li>
-					</ul>
-				</article>
-				<article id="contentLink">
-					<h2>Programador | <a href="http://www.lovetalavera.com/" target="_blank">Buen Arte Visual SL</a></h2>
-					<p class="subDetails">2013</p>
-					<p>Creación de páginas web.</p>
-				</article>
-				<article id="contentLink">
-					<h2>Profesor | <a href="http://www.academiaarma.com/" target="_blank">Academia ARMA SLU</a></h2>
-					<p class="subDetails">2013</p>
-					<p>Clases de informática, ofimática y desarrollo web.</p>
-				</article>
-				<article id="contentLink">
-					<h2>Programador | <a href="http://www.lechtechsolutions.com/" target="_blank">Lech Tech Solutions S.L.</a></h2>
-					<p class="subDetails">2012</p>
-					<p>Desarrollo de aplicación para tratamiento de ficheros alojados en un servidor (JAVA). <br>
-						Desarrollo de páginas web (HTML5, CSS3, JS, jQuery, PHP) y web adaptadas a móviles (Responsive desing, jQuery Mobile).</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
+	<h2>Técnico básico en prevención de riesgos laborales</h2>
+		<p class="subDetails">2011</p>
+		<p>I.E.S. Ribera del Tajo (Toledo)</p>
 
 
-		<section>
-			<div class="sectionTitle">
-				<h1>Formación académica</h1>
-			</div>
+<h1>Cualificaciones</h1>
+	<h2>Idiomas</h2>
+	<p>Nivel medio de inglés.</p>
 
-			<div class="sectionContent">
-				<article>
-					<h2>Curso de desarrollo de aplicaciones para móviles</h2>
-					<p class="subDetails">2012 - 2013</p>
-					<p>Deusto formación</p>
-				</article>
+	<h2>Lenguajes</h2>
+		<ul>
+			<li>HTML5</li>
+			<li>CSS3</li>
+			<li>PHP</li>
+			<li>JavaScript</li>
+			<li>Objective C</li>
+			<li>JAVA</li>
+			<li>Visual Basic</li>
+			<li>BD ORACLE</li>
+			<li>MySQL</li>
+		</ul>
 
-				<article>
-					<h2>Técnico Superior en Desarrollo de Aplicaciones Multimedia</h2>
-					<p class="subDetails">2010 - 2012</p>
-					<p>I.E.S. Ribera del Tajo (Toledo)</p>
-				</article>
-
-				<article>
-					<h2>Técnico básico en prevención de riesgos laborales</h2>
-					<p class="subDetails">2011</p>
-					<p>I.E.S. Ribera del Tajo (Toledo)</p>
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Cualificaciones</h1>
-			</div>
-
-			<div class="sectionContent">
-				<article>
-					<h2>Idiomas</h2>
-					<p>Nivel medio de inglés.</p>
-				</article>
-			</div>
-
-			<div class="sectionContent">
-				<article>
-					<h2>Lenguajes</h2>
-				</article>
-			</div>
-
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>PHP</li>
-					<li>JavaScript</li>
-					<li>Objective C</li>
-					<li>JAVA</li>
-					<li>Visual Basic</li>
-					<li>BD ORACLE</li>
-					<li>MySQL</li>
-				</ul>
-			</div>
-
-			<div class="sectionContent">
-				<article>
-					<h2>Desarrollo móvil</h2>
-					<p>Aplicaciones nativas en Android, iOS y Windows Phone.<br>
-						Aplicaciones web (Appcelerator, PhoneGap, jQuery Mobile) para todo tipo de dispositivos.</p>
-				</article>
-			</div>
-
-			<div class="clear"></div>
-		</section>
-	</div>
-</div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3753241-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-<script>
-getMonthElapsed = function(f1) {var d = new Date();var f2 = d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear();var aDate1 = f1.split('/'); var aDate2 = f2.split('/'); var fDate1 = Date.UTC(aDate1[2],aDate1[1]-1,aDate1[0]); var fDate2 = Date.UTC(aDate2[2],aDate2[1]-1,aDate2[0]); var diff = fDate2 - fDate1;var days = Math.floor(diff / (1000 * 60 * 60 * 24) / 30);return days;}
-getTime = function() { var numMonth = getMonthElapsed('21/01/2014'); var numYears = Math.floor(numMonth/12); if (numYears == 0) { return numMonth + ((numMonth == 1) ? " mes" : " meses"); } else {	var textYears = numYears + ((numYears == 1) ? " año" : " años"); var numMonthByYears = (numMonth - (numYears * 12)); var textMonth = " y " + numMonthByYears + ((numMonthByYears == 1) ? " mes" : " meses"); return textYears + ((numMonthByYears != 0) ? textMonth : "");}}
-document.getElementById('meses').innerHTML = getTime();
-</script>
-</body>
-</html>
+	<h2>Desarrollo móvil</h2>
+		<p>Aplicaciones nativas en Android, iOS y Windows Phone.<br> Aplicaciones web (Appcelerator, PhoneGap, jQuery Mobile) para todo tipo de dispositivos.</p>

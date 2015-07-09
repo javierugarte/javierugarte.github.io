@@ -199,15 +199,6 @@
 		</section>
 	</div>
 </div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3753241-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
 <script>
 getMonthElapsed = function(f1) {var d = new Date();var f2 = d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear();var aDate1 = f1.split('/'); var aDate2 = f2.split('/'); var fDate1 = Date.UTC(aDate1[2],aDate1[1]-1,aDate1[0]); var fDate2 = Date.UTC(aDate2[2],aDate2[1]-1,aDate2[0]); var diff = fDate2 - fDate1;var days = Math.floor(diff / (1000 * 60 * 60 * 24) / 30);return days;}
 getTime = function() { var numMonth = getMonthElapsed('21/01/2014'); var numYears = Math.floor(numMonth/12); if (numYears == 0) { return numMonth + ((numMonth == 1) ? " mes" : " meses"); } else {	var textYears = numYears + ((numYears == 1) ? " año" : " años"); var numMonthByYears = (numMonth - (numYears * 12)); var textMonth = " y " + numMonthByYears + ((numMonthByYears == 1) ? " mes" : " meses"); return textYears + ((numMonthByYears != 0) ? textMonth : "");}}

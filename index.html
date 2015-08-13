@@ -207,5 +207,14 @@ getMonthElapsed = function(f1) {var d = new Date();var f2 = d.getDate() + "/" + 
 getTime = function() { var numMonth = getMonthElapsed('21/01/2014'); var numYears = Math.floor(numMonth/12); if (numYears == 0) { return numMonth + ((numMonth == 1) ? " mes" : " meses"); } else {	var textYears = numYears + ((numYears == 1) ? " año" : " años"); var numMonthByYears = (numMonth - (numYears * 12)); var textMonth = " y " + numMonthByYears + ((numMonthByYears == 1) ? " mes" : " meses"); return textYears + ((numMonthByYears != 0) ? textMonth : "");}}
 document.getElementById('meses').innerHTML = getTime();
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47251868-2', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>

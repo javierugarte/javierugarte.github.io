@@ -30,7 +30,7 @@ p {
 }
 
 .mainDetails {
-	padding: 25px 35px;
+	padding: 35px 35px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
@@ -190,7 +190,13 @@ section:last-child {
 .iconApp {
 	width: 60px;
 	height: 60px;
-	margin: 10px;	
+	margin: 10px;
+}
+
+.rrssImage {
+	width: 32px;
+	height: 32px;
+	margin: 5px;		
 }
 
 @media all and (min-width: 650px) and (max-width: 800px) {

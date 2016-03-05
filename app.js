@@ -1,6 +1,6 @@
 var app = angular.module("app", []);
 
-var $URL = "http://jugarte.es/dev/cv/apps.json";
+var $URL = "apps.json";
 
 
 app.controller("appCtrl", function($scope, $http) {

@@ -15,11 +15,14 @@
 	<link type="text/css" rel="stylesheet" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
 
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	<script src="app.js"></script>
+
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
-<body id="top">
+<body id="top" ng-app="app" ng-controller="appCtrl">
 	<div id="cv" class="instaFade">
 		<div class="mainDetails">
 			<div id="headshot" class="quickFade">
@@ -83,83 +86,14 @@
 
 						<div class="appMade">
 
-							<!-- Define all of the tiles: -->
-							<!-- Gourmet -->
-							<div class="appMadeBox">
+							<!-- Define all of the apps -->
+							<div class="appMadeBox" ng-repeat="app in bitban">
 								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/gourmet.png" /></br>
-									<a href="http://javierugarte.github.io/GourmetApp-android/" target="_blank">AND</a>
-								</div>
-							</div>
-
-							<!-- TVN News -->
-							<div class="appMadeBox">
-								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/tvn_news.png" /></br>
-									<a href="https://itunes.apple.com/cr/app/tvn-noticias/id494735235" target="_blank">IOS</a>
-									· 	
-									<a href="https://play.google.com/store/apps/details?id=air.com.tvn.app.mobile.TVNNoticias" target="_blank">AND</a>
-								</div>
-							</div>
-
-							<!-- ElTiempoHoy -->
-							<div class="appMadeBox">
-								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/eltiempohoy.png" /><br>
-									<a href="https://itunes.apple.com/cr/app/eltiempohoy/id1071092288" target="_blank">IOS</a>
-									· 
-									<a href="https://play.google.com/store/apps/details?id=es.mediaset.eltiempohoy" target="_blank">AND</a>
-
-								</div>
-							</div>
-
-							<!-- LaVoz -->
-							<div class="appMadeBox">
-								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/lavoz.png" /></br>
-									<a href="https://itunes.apple.com/es/app/la-voz-telecinco/id561024985" target="_blank">IOS</a>
-									· 
-									<a href="https://play.google.com/store/apps/details?id=com.lavoz" target="_blank">AND</a>
-								</div>
-							</div>
-
-							<!-- MiTele -->
-							<div class="appMadeBox">
-								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/mitele.png" /></br>
-									<a href="https://itunes.apple.com/es/app/mitele-web-tv/id561055939" target="_blank">IOS</a>
-									· 	
-									<a href="https://play.google.com/store/apps/details?id=com.miteledivte" target="_blank">AND</a>
-								</div>
-							</div>
-
-							<!-- GranHermano -->
-							<div class="appMadeBox">
-								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/gh.png" /></br>
-									<a href="https://itunes.apple.com/es/app/gh-vip-oficial/id616014934" target="_blank">IOS</a>
-									· 
-									<a href="https://play.google.com/store/apps/details?id=es.mediaset.gh14" target="_blank">AND</a>
-								</div>
-							</div>
-
-							<!-- MediasetSport -->
-							<div class="appMadeBox">
-								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/sport.png" /></br>
-									<a href="https://itunes.apple.com/es/app/mediaset-sport/id877823264" target="_blank">IOS</a>
-									· 
-									<a href="https://play.google.com/store/apps/details?id=es.mediaset.sport" target="_blank">AND</a>
-								</div>
-							</div>
-
-							<!-- MediasetMotoGP -->
-							<div class="appMadeBox">
-								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/motogp.png" /></br>
-									<a href="https://itunes.apple.com/es/app/mediasetgp/id638319935" target="_blank">IOS</a>
-									· 	
-									<a href="https://play.google.com/store/apps/details?id=es.mediaset.motogp" target="_blank">AND</a>
+									<img class="iconApp" src="image/apps/{{app.icon}}" /></br>
+									<span ng-repeat="platform in app.platforms">
+									<a href="{{platform.url}}" target="_blank">{{platform.platformName}}</a>
+									<span ng-if="!$last">·</span>
+									</span>
 								</div>
 							</div>
 

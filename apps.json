@@ -1,0 +1,175 @@
+{
+  "business": [
+    {
+      "id": "bitban",
+      "name": "Bitban",
+      "apps": [
+        {
+          "id": "gourmet",
+          "name": "Gourmet",
+          "icon": "gourmet.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "platformName": "AND",
+              "device": "mobile",
+              "url": "http://javierugarte.github.io/GourmetApp-android/"
+            }
+          ]
+        },
+        {
+          "id": "tvn-news",
+          "name": "TVN Noticias",
+          "icon": "tvn_news.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": "https://play.google.com/store/apps/details?id=air.com.tvn.app.mobile.TVNNoticias"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": "https://itunes.apple.com/cr/app/tvn-noticias/id494735235"
+            }
+          ]
+        },
+        {
+          "id": "eltiempohoy",
+          "name": "El Tiempo Hoy",
+          "icon": "eltiempohoy.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": "https://play.google.com/store/apps/details?id=es.mediaset.eltiempohoy"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": "https://itunes.apple.com/cr/app/eltiempohoy/id1071092288"
+            }
+          ]
+        },
+        {
+          "id": "lavoz",
+          "name": "La Voz",
+          "icon": "lavoz.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": "https://play.google.com/store/apps/details?id=com.lavoz"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": "https://itunes.apple.com/es/app/la-voz-telecinco/id561024985"
+            }
+          ]
+        },
+        {
+          "id": "mitele",
+          "name": "MiTele",
+          "icon": "mitele.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": "https://play.google.com/store/apps/details?id=com.miteledivte"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": "https://itunes.apple.com/es/app/mitele-web-tv/id561055939"
+            }
+          ]
+        },
+        {
+          "id": "granhermano",
+          "name": "Gran Hermano",
+          "icon": "gh.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": "https://play.google.com/store/apps/details?id=es.mediaset.gh14"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": "https://itunes.apple.com/es/app/gh-vip-oficial/id616014934"
+            }
+          ]
+        },
+        {
+          "id": "mediaset-sport",
+          "name": "Mediaset Sport",
+          "icon": "sport.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": "https://play.google.com/store/apps/details?id=es.mediaset.sport"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": "https://itunes.apple.com/es/app/mediaset-sport/id877823264"
+            }
+          ]
+        },
+        {
+          "id": "motogp",
+          "name": "Mediaset MotoGP",
+          "icon": "motogp.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": "https://play.google.com/store/apps/details?id=es.mediaset.motogp"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": "https://itunes.apple.com/es/app/mediasetgp/id638319935"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freelance",
+      "name": "Personal projects",
+      "apps": [
+        {
+          "id": "gourmet",
+          "name": "Gourmet",
+          "icon": "gourmet.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "platformName": "AND",
+              "device": "mobile",
+              "url": "http://javierugarte.github.io/GourmetApp-android/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

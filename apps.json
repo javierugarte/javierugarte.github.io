@@ -114,8 +114,8 @@
         },
         {
           "id": "mediaset-sport",
-          "name": "Mediaset Sport",
-          "icon": "sport.png",
+          "name": "Mediaset Sport - Eurocopa",
+          "icon": "sport_euro.png",
           "platforms": [
             {
               "platform": "AND",
@@ -127,7 +127,9 @@
               "platform": "IOS",
               "device": "all",
               "platformName": "IOS",
-              "url": "https://itunes.apple.com/es/app/mediaset-sport/id877823264"
+              "url": "https://itunes.apple.com/es/app/mediaset-sport/id877823264",
+              "url": "https://itunes.apple.com/es/app/mediaset-sport-eurocopa-en/id877823855"
+
             }
           ]
         },

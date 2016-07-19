@@ -5,15 +5,42 @@
       "name": "Bitban",
       "apps": [
         {
-          "id": "gourmet",
-          "name": "Gourmet",
-          "icon": "gourmet.png",
+          "id": "eldiario",
+          "name": "eldiario.es",
+          "icon": "eldiario_es.png",
+          "hidden": false,
           "platforms": [
             {
               "platform": "AND",
+              "device": "all",
               "platformName": "AND",
-              "device": "mobile",
-              "url": "http://javierugarte.github.io/GourmetApp-android/"
+              "url": "https://play.google.com/store/apps/details?id=es.eldiario.app"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": "https://itunes.apple.com/es/app/eldiario.es/id1119554082"
+            }
+          ]
+        },
+        {
+          "id": "tvn-bb",
+          "name": "TVN BigBrother",
+          "icon": "tvn_bb.png",
+          "hidden": true,
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": "https://play.google.com/store/apps/details?id=com.tvn.bigbrother"
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": null
             }
           ]
         },
@@ -72,7 +99,7 @@
               "platform": "IOS",
               "device": "all",
               "platformName": "IOS",
-              "url": "https://itunes.apple.com/cr/app/tvn-noticias/id494735235"
+              "url": "https://itunes.apple.com/es/app/tvn-noticias/id494735235"
             }
           ]
         },

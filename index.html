@@ -70,7 +70,7 @@
 
 			<section>
 				<div class="sectionTitle">
-					<h1>Experiencia</h1>
+					<h1>Experiencia profesional</h1>
 				</div>
 
 				<div class="sectionContent" >
@@ -94,6 +94,7 @@
 							</div>
 
 						</div>
+
 						<!-- /#wrap -->
 					</article>
 					<article id="contentLink">
@@ -112,6 +113,40 @@
 						<p>Desarrollo de aplicación para tratamiento de ficheros alojados en un servidor (JAVA). <br>
 							Desarrollo de páginas web (HTML5, CSS3, JS, jQuery, PHP) y web adaptadas a móviles (Responsive desing, jQuery Mobile).</p>
 						</article>
+					</div>
+					<div class="clear"></div>
+				</section>
+
+				<section>
+				<div class="sectionTitle">
+					<h1>Proyectos personales</h1>
+				</div>
+
+				<div class="sectionContent" >
+
+					<article id="contentLink">
+						<h2>Freetime</h2>
+						<p class="subDetails">Siempre</p> 
+						<p>En mis tiempos libres me dedico a seguir programando. Colaboro con el software libre y creo mis propias librerías. Puedes verlo en <a href="https://github.com/javierugarte" target="_blank">GitHub</a></p>
+
+						<div class="appMade">
+
+							<!-- Define all of the apps -->
+							<div class="appMadeBox" ng-repeat="app in personal">
+								<div class="appMadeCell">
+									<img class="iconApp" src="image/apps/{{app.icon}}" /></br>
+									<span ng-repeat="platform in app.platforms">
+									<a href="{{platform.url}}" target="_blank">{{platform.platformName}}</a>
+									<span ng-if="!$last">·</span>
+									</span>
+								</div>
+							</div>
+
+						</div>
+						<!-- /#wrap -->
+					</article>
+					
+					
 					</div>
 					<div class="clear"></div>
 				</section>

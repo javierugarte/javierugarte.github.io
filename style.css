@@ -422,11 +422,11 @@ section:last-child {
 			padding-bottom: 33.3%;
 		}
 	}
-	@media only screen and (max-width : 1290px) and (min-width : 821px) {
+	@media all and (min-width : 821px) {
 		/* Medium desktop: 4 tiles */
 		.appMadeBox {
 			width: 25%;
 			padding-bottom: 25%;
-			
+			margin-bottom: 20px;
 		}
 	}

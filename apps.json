@@ -181,8 +181,8 @@
         },
         {
           "id": "mediaset-sport",
-          "name": "Mediaset Sport - Eurocopa",
-          "icon": "sport_euro.png",
+          "name": "Mediaset Sport",
+          "icon": "sport.png",
           "platforms": [
             {
               "platform": "AND",

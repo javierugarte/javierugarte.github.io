@@ -8,7 +8,6 @@
           "id": "eldiario",
           "name": "eldiario.es",
           "icon": "eldiario_es.png",
-          "hidden": false,
           "platforms": [
             {
               "platform": "AND",
@@ -28,7 +27,6 @@
           "id": "tvn-bb",
           "name": "TVN BigBrother",
           "icon": "tvn_bb.png",
-          "hidden": true,
           "platforms": [
             {
               "platform": "AND",

@@ -7,7 +7,7 @@
         {
           "id": "vertele",
           "name": "Vertele",
-          "icon": "vertele.png",
+          "icon": "image/apps/vertele.png",
           "hidden": true,
           "platforms": [
             {
@@ -27,7 +27,7 @@
         {
           "id": "eldiario",
           "name": "eldiario.es",
-          "icon": "eldiario_es.png",
+          "icon": "image/apps/eldiario_es.png",
           "hidden": false,
           "platforms": [
             {
@@ -47,7 +47,7 @@
         {
           "id": "tvn-bb",
           "name": "TVN BigBrother",
-          "icon": "tvn_bb.png",
+          "icon": "image/apps/tvn_bb.png",
           "platforms": [
             {
               "platform": "AND",
@@ -66,7 +66,7 @@
         {
           "id": "tvn-news",
           "name": "TVN Noticias",
-          "icon": "tvn_news.png",
+          "icon": "image/apps/tvn_news.png",
           "platforms": [
             {
               "platform": "AND",
@@ -85,7 +85,7 @@
         {
           "id": "eltiempohoy",
           "name": "El Tiempo Hoy",
-          "icon": "eltiempohoy.png",
+          "icon": "image/apps/eltiempohoy.png",
           "platforms": [
             {
               "platform": "AND",
@@ -104,7 +104,7 @@
         {
           "id": "lavoz",
           "name": "La Voz",
-          "icon": "lavoz.png",
+          "icon": "http://is3.mzstatic.com/image/thumb/Purple71/v4/31/c3/fc/31c3fc36-743f-bec3-b70e-b31aec5b76da/source/100x100bb.jpg",
           "platforms": [
             {
               "platform": "AND",
@@ -123,7 +123,7 @@
         {
           "id": "mitele",
           "name": "MiTele",
-          "icon": "mitele.png",
+          "icon": "image/apps/mitele.png",
           "platforms": [
             {
               "platform": "AND",
@@ -142,7 +142,7 @@
         {
           "id": "granhermano",
           "name": "Gran Hermano",
-          "icon": "gh_17.png",
+          "icon": "http://is1.mzstatic.com/image/thumb/Purple71/v4/d5/61/61/d561619d-97b7-940b-b328-d26eb3f7a61b/source/100x100bb.jpg",
           "platforms": [
             {
               "platform": "AND",
@@ -161,7 +161,7 @@
         {
           "id": "mediaset-sport",
           "name": "Mediaset Sport",
-          "icon": "sport.png",
+          "icon": "image/apps/sport.png",
           "platforms": [
             {
               "platform": "AND",
@@ -180,7 +180,7 @@
         {
           "id": "motogp",
           "name": "Mediaset MotoGP",
-          "icon": "motogp.png",
+          "icon": "image/apps/motogp.png",
           "platforms": [
             {
               "platform": "AND",
@@ -205,7 +205,7 @@
         {
           "id": "gourmet",
           "name": "Gourmet",
-          "icon": "gourmet.png",
+          "icon": "image/apps/gourmet.png",
           "platforms": [
             {
               "platform": "AND",

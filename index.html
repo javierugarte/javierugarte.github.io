@@ -85,7 +85,7 @@
 							<!-- Define all of the apps -->
 							<div class="appMadeBox" ng-repeat="app in bitban">
 								<div class="appMadeCell">
-									<img class="iconApp" src="image/apps/{{app.icon}}" /></br>
+									<img class="iconApp" src="{{app.icon}}" /></br>
 									<span ng-repeat="platform in app.platforms">
 									<a href="{{platform.url}}" target="_blank">{{platform.platformName}}</a>
 									<span ng-if="!$last">·</span>

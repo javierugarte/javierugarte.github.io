@@ -5,6 +5,26 @@
       "name": "Bitban",
       "apps": [
         {
+          "id": "estoesguerra",
+          "name": "Esto es guerra",
+          "icon": "image/apps/esto_es_guerra.png",
+          "hidden": true,
+          "platforms": [
+            {
+              "platform": "AND",
+              "device": "all",
+              "platformName": "AND",
+              "url": ""
+            },
+            {
+              "platform": "IOS",
+              "device": "all",
+              "platformName": "IOS",
+              "url": ""
+            }
+          ]
+        },
+        {
           "id": "vertele",
           "name": "Vertele",
           "icon": "image/apps/vertele.png",

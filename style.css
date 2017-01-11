@@ -25,14 +25,14 @@ p {
 #cv {
 	width: 90%;
 	max-width: 800px;
-	background: #f3f3f3;
+	background: #ffffff;
 	margin: 30px auto;
 }
 
 .mainDetails {
 	padding: 35px 35px;
 	border-bottom: 2px solid #cf8a05;
-	background: #ededed;
+	background: #f3f3f3;
 }
 
 #name h1 {
@@ -206,15 +206,15 @@ section:last-child {
 
 @media (max-width: 900px) {
 	
-	#github-widget {
-		display: none;
-	}
-
 }
 
 @media all and (min-width: 650px) and (max-width: 800px) {
 	#headshot {
 		display: none;
+	}
+
+	#github-widget img{
+		width: 600px;
 	}
 	
 	.keySkills {
@@ -233,6 +233,12 @@ section:last-child {
 	
 	#headshot {
 		display: none;
+	}
+
+	#github-widget img {
+		width: 400px;
+		margin-left: -100px;
+		background-color: red;
 	}
 	
 	#name, #contactDetails {

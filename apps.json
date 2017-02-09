@@ -65,9 +65,9 @@
           ]
         },
         {
-          "id": "tvn-bb",
+          "id": "bigbrother",
           "name": "TVN BigBrother",
-          "icon": "image/apps/tvn_bb.png",
+          "icon": "image/apps/bigbrother.png",
           "platforms": [
             {
               "platform": "AND",
@@ -231,7 +231,32 @@
               "platform": "AND",
               "platformName": "AND",
               "device": "mobile",
+              "url": "https://github.com/GourmetApp/GourmetApp-android"
+            },
+            {
+              "platform": "WEB",
+              "platformName": "WEB",
+              "device": "web",
               "url": "https://gourmetapp.github.io"
+            }
+          ]
+        },
+        {
+          "id": "athleticcalendar",
+          "name": "Athletic Calendar",
+          "icon": "image/apps/athletic_calendar.png",
+          "platforms": [
+            {
+              "platform": "AND",
+              "platformName": "AND",
+              "device": "mobile",
+              "url": "https://github.com/AthleticCalendar/AthleticCalendar-android"
+            },
+            {
+              "platform": "WEB",
+              "platformName": "WEB",
+              "device": "web",
+              "url": "https://AthleticCalendar.github.io"
             }
           ]
         }

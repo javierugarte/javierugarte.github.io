@@ -8,19 +8,19 @@
           "id": "estoesguerra",
           "name": "Esto es guerra",
           "icon": "image/apps/esto_es_guerra.png",
-          "hidden": true,
+          "hidden": false,
           "platforms": [
             {
               "platform": "AND",
               "device": "all",
               "platformName": "AND",
-              "url": ""
+              "url": "https://play.google.com/store/apps/details?id=com.tvn.estoesguerra"
             },
             {
               "platform": "IOS",
               "device": "all",
               "platformName": "IOS",
-              "url": ""
+              "url": "https://itunes.apple.com/pa/app/esto-es-guerra-tvn/id1199047009"
             }
           ]
         },
@@ -28,7 +28,6 @@
           "id": "vertele",
           "name": "Vertele",
           "icon": "image/apps/vertele.png",
-          "hidden": true,
           "platforms": [
             {
               "platform": "AND",

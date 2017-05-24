@@ -25,14 +25,14 @@ p {
 #cv {
 	width: 90%;
 	max-width: 800px;
-	background: #ffffff;
+	background: #F3F3F3;
 	margin: 30px auto;
 }
 
 .mainDetails {
 	padding: 35px 35px;
 	border-bottom: 2px solid #cf8a05;
-	background: #f3f3f3;
+	background: #EDEDED;
 }
 
 #name h1 {
@@ -111,9 +111,9 @@ p {
 	color: #cf8a05;
 }
 
-#github-widget {
-	margin-left: -200px;
-	width: 730px;
+#github-widget img {
+	width: 100%;
+	margin: 0 auto;
 }
 
 section {
@@ -235,12 +235,6 @@ section:last-child {
 		display: none;
 	}
 
-	#github-widget img {
-		width: 400px;
-		margin-left: -100px;
-		background-color: red;
-	}
-	
 	#name, #contactDetails {
 		float: none;
 		width: 100%;

@@ -61,7 +61,7 @@ ul {
 }
 
 #headshot {
-	width: 12.5%;
+	width: 120px;
 	float: left;
 	margin-right: 30px;
 }
@@ -69,8 +69,8 @@ ul {
 #headshot img {
 	width: 100%;
 	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
 }
 
 #name {

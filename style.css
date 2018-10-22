@@ -22,6 +22,14 @@ p {
 	color: #444;
 }
 
+ul {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 10px;
+	color: #444;
+	margin-left: 20px;
+}
+
 #cv {
 	width: 90%;
 	max-width: 800px;

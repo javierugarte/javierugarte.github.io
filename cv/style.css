@@ -305,6 +305,10 @@ section:last-child {
 		margin-top: 10px;
 	}
 
+	.blockSpace {
+		height: 180px;
+	}
+
 	.mainDetails {
 		padding: 20px 35px;
 		background: white;

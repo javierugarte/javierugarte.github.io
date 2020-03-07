@@ -1,0 +1,25 @@
+[debug] [2020-03-07T12:01:35.285Z] ----------------------------------------------------------------------
+[debug] [2020-03-07T12:01:35.287Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-03-07T12:01:35.287Z] CLI Version:   6.1.2
+[debug] [2020-03-07T12:01:35.287Z] Platform:      darwin
+[debug] [2020-03-07T12:01:35.287Z] Node Version:  v10.15.0
+[debug] [2020-03-07T12:01:35.288Z] Time:          Sat Mar 07 2020 13:01:35 GMT+0100 (GMT+01:00)
+[debug] [2020-03-07T12:01:35.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-03-07T12:01:35.301Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-07T12:01:35.302Z] > authorizing via signed-in user
+[debug] [2020-03-07T12:01:35.302Z] [iam] checking project jugarte-9b4ca for permissions ["firebase.projects.get"]
+[debug] [2020-03-07T12:01:35.303Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jugarte-9b4ca:testIamPermissions  
+
+[debug] [2020-03-07T12:01:36.286Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-07T12:01:36.288Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/jugarte-9b4ca  
+ 
+[debug] [2020-03-07T12:01:37.187Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/javiergon/projects/personal/javierugarte.github.io'...
+[info] 
+[debug] [2020-03-07T12:01:37.190Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/674925375675/clients/_:getWebAppConfig  
+ 
+[debug] [2020-03-07T12:01:38.149Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000

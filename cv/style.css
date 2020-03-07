@@ -48,6 +48,7 @@ ul {
 	font-weight: 700;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
+	margin-top: 15px;
 }
 
 #name h2 {
@@ -79,6 +80,10 @@ ul {
 
 #contactDetails {
 	float: right;
+}
+
+#contactDetails.print {
+	display: none;
 }
 
 #contactDetails ul {
@@ -292,7 +297,32 @@ section:last-child {
 @media print {
 	#cv {
 		width: 100%;
+		background: white;
+		margin: 0px, auto;
 	}
+
+	#name {
+		margin-top: 10px;
+	}
+
+	.mainDetails {
+		padding: 20px 35px;
+		background: white;
+	}
+
+	#headshot {
+		display: block;
+	}
+
+	#contactDetails {
+		display: none;
+	}
+
+	#contactDetails.print {
+		display: block;
+		margin-top: 15px;
+	}
+
 }
 
 @-webkit-keyframes reset {

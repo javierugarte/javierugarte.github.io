@@ -31,7 +31,7 @@
 
 			<div id="name">
 				<h1 class="quickFade delayTwo">Javier González</h1>
-				<h2 class="quickFade delayThree">iOS Senior Developer</h2>
+				<h2 class="quickFade delayThree">Mobile developer</h2>
 			</div>
 
 			<div id="contactDetails" class="quickFade delayFour">
@@ -42,9 +42,9 @@
 						<a href="https://www.linkedin.com/in/javierugarte"  target="_blank">
 							<img class="rrssImage" src="image/linkedin.png" onmouseover="this.src='image/linkedin-selected.png';" onmouseout="this.src='image/linkedin.png';" alt="LinkedIn"/>
 						</a>
-						<!-- <a href="https://plus.google.com/102005876930324858569/about?utm_source=chrome_ntp_icon&utm_medium=chrome_app&utm_campaign=chrome" target="_blank">
+						<a href="https://plus.google.com/102005876930324858569/about?utm_source=chrome_ntp_icon&utm_medium=chrome_app&utm_campaign=chrome" target="_blank">
 							<img class="rrssImage" src="image/google.png" onmouseover="this.src='image/google-selected.png';" onmouseout="this.src='image/google.png';" alt="Google +"/>
-						</a> -->
+						</a>
 						<a href="https://github.com/javierugarte" target="_blank">
 							<img class="rrssImage" src="image/github.png" onmouseover="this.src='image/github-selected.png';" onmouseout="this.src='image/github.png';" alt="GitHub"/>
 						</a>
@@ -76,14 +76,8 @@
 				<div class="sectionContent" >
 
 					<article id="contentLink">
-						<h2>iOS Senior Developer | <a href="http://yudonpay.com/" target="_blank">Yudonpay</a></h2>
-						<p class="subDetails">2019 - Actual (<span id="meses"></span>)</p>
-						<p></p>
-					</article>
-
-					<article id="contentLink">
-						<h2>Mobile Developer | <a href="http://www.bitban.com/" target="_blank">Bitban Technologies S.L.</a></h2>
-						<p class="subDetails">2014 - 2019</p>
+						<h2>Programador | <a href="http://www.bitban.com/" target="_blank">Bitban Technologies S.L.</a></h2>
+						<p class="subDetails">2014 - Actual (<span id="meses"></span>)</p>
 						<p>Programador de aplicaciones móviles Android e iOS.</br>
 						Desarrollo de diferentes aplicaciones para medios de comunicación.
 							<ul>
@@ -115,6 +109,11 @@
 						<h2>Programador | <a href="http://lovestudios.es/" target="_blank">Love Studios</a></h2>
 						<p class="subDetails">2013</p>
 						<p>Desarrollo con wordpress, html5, css3, javascript y php.</p>
+					</article>
+					<article id="contentLink">
+						<h2>Profesor | <a href="http://www.academiaarma.com/" target="_blank">Academia ARMA SLU</a></h2>
+						<p class="subDetails">2013</p>
+						<p>Clases de informática, ofimática y desarrollo web.</p>
 					</article>
 					<article id="contentLink">
 						<h2>Programador | <a href="http://www.thespringlabs.com/" target="_blank">The Spring Labs</a></h2>
@@ -183,6 +182,11 @@
 							<p>I.E.S. Ribera del Tajo (Toledo)</p>
 						</article>
 
+						<article>
+							<h2>Técnico básico en prevención de riesgos laborales</h2>
+							<p class="subDetails">2011</p>
+							<p>I.E.S. Ribera del Tajo (Toledo)</p>
+						</article>
 					</div>
 					<div class="clear"></div>
 				</section>
@@ -239,7 +243,7 @@
 			</div>
 			<script>
 				getMonthElapsed = function(f1) {var d = new Date();var f2 = d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear();var aDate1 = f1.split('/'); var aDate2 = f2.split('/'); var fDate1 = Date.UTC(aDate1[2],aDate1[1]-1,aDate1[0]); var fDate2 = Date.UTC(aDate2[2],aDate2[1]-1,aDate2[0]); var diff = fDate2 - fDate1;var days = Math.floor(diff / (1000 * 60 * 60 * 24) / 30);return days;}
-				getTime = function() { var numMonth = getMonthElapsed('01/11/2019'); var numYears = Math.floor(numMonth/12); if (numYears == 0) { return numMonth + ((numMonth == 1) ? " mes" : " meses"); } else {	var textYears = numYears + ((numYears == 1) ? " año" : " años"); var numMonthByYears = (numMonth - (numYears * 12)); var textMonth = " y " + numMonthByYears + ((numMonthByYears == 1) ? " mes" : " meses"); return textYears + ((numMonthByYears != 0) ? textMonth : "");}}
+				getTime = function() { var numMonth = getMonthElapsed('21/01/2014'); var numYears = Math.floor(numMonth/12); if (numYears == 0) { return numMonth + ((numMonth == 1) ? " mes" : " meses"); } else {	var textYears = numYears + ((numYears == 1) ? " año" : " años"); var numMonthByYears = (numMonth - (numYears * 12)); var textMonth = " y " + numMonthByYears + ((numMonthByYears == 1) ? " mes" : " meses"); return textYears + ((numMonthByYears != 0) ? textMonth : "");}}
 				document.getElementById('meses').innerHTML = getTime();
 			</script>
 			<script>

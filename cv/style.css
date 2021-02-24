@@ -22,6 +22,11 @@ p {
 	color: #444;
 }
 
+b {
+	font-weight: bold;
+	color: rgb(19, 19, 19);
+}
+
 ul {
 	font-size: 1em;
 	line-height: 1.4em;

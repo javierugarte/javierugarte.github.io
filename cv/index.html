@@ -95,9 +95,9 @@
 				<div class="sectionContent">
 
 					<article id="contentLink">
-						<h2>iOS Senior Developer | <a href="https://serquo.com" target="_blank">Serquo</a></h2>
-						<p class="subDetails">2020 - Actualidad
-							<!-- (<span id="meses"></span>)-->
+						<h2>iOS Senior Developer | <a href="https://www.bbvatechnology.com/europa/" target="_blank">BBVA Tech</a></h2>
+						<p class="subDetails">2022 - Actualidad
+							(<span id="meses"></span>)
 						</p>
 						<p>Con cliente final BBVA, desarrollando la aplicación de <b><a href="https://apps.apple.com/es/app/bbva-espa%C3%B1a-banca-online/id325813155">BBVA España</a></b> y <b><a href="https://apps.apple.com/es/app/affinity-card/id1513316265">AffinityCard</a></b></br>
 
@@ -114,9 +114,26 @@
 					</article>
 
 					<article id="contentLink">
+						<h2>iOS Senior Developer | <a href="https://serquo.com" target="_blank">Serquo</a></h2>
+						<p class="subDetails">2020 - 2022
+						</p>
+						<p>Con cliente final BBVA, desarrollando la aplicación de <b><a href="https://apps.apple.com/es/app/bbva-espa%C3%B1a-banca-online/id325813155">BBVA España</a></b> y <b><a href="https://apps.apple.com/es/app/affinity-card/id1513316265">AffinityCard</a></b></br>
+
+							<ul>
+								<li>Metodologías Agile</li>
+								<li>Arquitectura VIPER</li>
+								<li>Integración con servicios RESTApi</li>
+								<li>Widget iOS 14, Widget Today, Apple Watch</li>
+								<li>Integración biométrica con TouchID / FaceID</li>
+								<li>CocoaPods</li>
+								<li>Integración continua con fastlane</li>
+							</ul>
+						</p>
+					</article>
+
+					<!-- <article id="contentLink">
 						<h2>iOS Senior Developer | <a href="https://twitter.com/yudonpay" target="_blank">Yudonpay</a></h2>
 						<p class="subDetails">2019 - 2020
-							<!-- (<span id="meses"></span>)-->
 						</p>
 						<p>Aplicación para gestionar tarjetas de fidelización, consulta de puntos y obtención de
 							información en tiempo real.</br>
@@ -133,12 +150,12 @@
 								<li>Integración biométrica con TouchID / FaceID</li>
 							</ul>
 						</p>
-					</article>
+					</article> -->
 
 					<article id="contentLink">
 						<h2>Mobile Developer | <a href="http://www.bitban.com/" target="_blank">Bitban Technologies
 								S.L.</a></h2>
-						<p class="subDetails">2014 - 2019</p>
+						<p class="subDetails">2014 - 2020</p>
 						Desarrollo de diferentes aplicaciones para medios de comunicación en iOS y Android</br>
 
 						<ul>
@@ -308,7 +325,7 @@
 	</div>
 	<script>
 		getMonthElapsed = function (f1) { var d = new Date(); var f2 = d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear(); var aDate1 = f1.split('/'); var aDate2 = f2.split('/'); var fDate1 = Date.UTC(aDate1[2], aDate1[1] - 1, aDate1[0]); var fDate2 = Date.UTC(aDate2[2], aDate2[1] - 1, aDate2[0]); var diff = fDate2 - fDate1; var days = Math.floor(diff / (1000 * 60 * 60 * 24) / 30); return days; }
-		getTime = function () { var numMonth = getMonthElapsed('01/11/2019'); var numYears = Math.floor(numMonth / 12); if (numYears == 0) { return numMonth + ((numMonth == 1) ? " mes" : " meses"); } else { var textYears = numYears + ((numYears == 1) ? " año" : " años"); var numMonthByYears = (numMonth - (numYears * 12)); var textMonth = " y " + numMonthByYears + ((numMonthByYears == 1) ? " mes" : " meses"); return textYears + ((numMonthByYears != 0) ? textMonth : ""); } }
+		getTime = function () { var numMonth = getMonthElapsed('07/04/2022'); var numYears = Math.floor(numMonth / 12); if (numYears == 0) { return numMonth + ((numMonth == 1) ? " mes" : " meses"); } else { var textYears = numYears + ((numYears == 1) ? " año" : " años"); var numMonthByYears = (numMonth - (numYears * 12)); var textMonth = " y " + numMonthByYears + ((numMonthByYears == 1) ? " mes" : " meses"); return textYears + ((numMonthByYears != 0) ? textMonth : ""); } }
 		document.getElementById('meses').innerHTML = getTime();
 	</script>
 	<script>

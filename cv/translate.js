@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			'lang.selector': 'Language selector',
 			'print.contactTitle': 'Contact',
 			'section.profile.title': 'Personal profile',
-			'section.profile.content': 'Mobile Lead Developer with more than a decade building iOS products and leading technical teams. I steer the vision and execution of BBVA’s global mobile architecture, connecting business needs with scalable, reliable solutions. I enjoy driving best practices, simplifying complex processes, and crafting user experiences that stand the test of time.',
+			'section.profile.content': 'Mobile Lead Developer with more than a decade building iOS products and leading technical teams. I steer the vision and execution of BBVA\’s global mobile architecture, connecting business needs with scalable, reliable solutions. I enjoy driving best practices, simplifying complex processes, and crafting user experiences that stand the test of time.',
 			'section.experience.title': 'Professional experience',
 			'experience.bbva.dates': '2022 - Present',
 			‘experience.bbva.summary’: ‘I am part of the <b>Global Mobile Architecture</b> team, aligning standards, shaping technical roadmaps, and supporting each country through critical launches. I translate the bank\’s strategy into tangible technology decisions and build internal tools that accelerate value delivery.’,

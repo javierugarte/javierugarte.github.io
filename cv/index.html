@@ -3,28 +3,56 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title data-i18n="page.title" data-i18n-attr="text"></title>
 	<meta name="description" content="Curriculum Vitae de Javier González" data-i18n="page.description" data-i18n-attr="content" />
 	<meta name="author" content="Javier González">
 	<meta name="keywords" content="iOS Developer, Mobile Lead Developer, Swift, VIPER, BBVA, iOS Expert, Mobile Architecture, CV, Resume">
 	<meta name="theme-color" content="#CF8A05">
 
+	<!-- Open Graph -->
+	<meta property="og:title" content="Javier González — Mobile Lead Developer">
+	<meta property="og:description" content="CV de Javier González, Mobile Lead Developer con más de una década en iOS y arquitectura móvil global.">
+	<meta property="og:type" content="profile">
+	<meta property="og:url" content="https://jugarte.es/cv/">
+	<meta property="og:image" content="https://jugarte.es/cv/headshot.jpg">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Javier González — Mobile Lead Developer">
+	<meta name="twitter:description" content="CV de Javier González, Mobile Lead Developer.">
+	<meta name="twitter:image" content="https://jugarte.es/cv/headshot.jpg">
+
 	<!-- Canonical URL -->
 	<link rel="canonical" href="https://jugarte.es/cv/">
-	
-	<link rel="shortcut icon" href="favicon.ico" />
+
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://cdn.jsdelivr.net">
 	<link type="text/css" rel="stylesheet" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Javier González Martín",
+		"jobTitle": "Mobile Lead Developer",
+		"url": "https://jugarte.es",
+		"email": "javierugarte91@gmail.com",
+		"sameAs": [
+			"https://www.linkedin.com/in/javierugarte",
+			"https://github.com/javierugarte"
+		]
+	}
+	</script>
 </head>
 
-<body id="top" ng-app="app" ng-controller="appCtrl" data-lang="es">
+<body id="top" data-lang="es">
 	<div id="cv" class="instaFade">
 		<div class="mainDetails">
 			<div id="headshot">
-				<img src="headshot.jpg" alt="Javier González" />
+				<img src="headshot.jpg" alt="Javier González" loading="lazy" decoding="async" />
 			</div>
 
 			<div id="name">
@@ -52,6 +80,11 @@
 						aria-label="GitHub">
 						<i class="ri-github-fill" aria-hidden="true"></i>
 						<span class="sr-only">GitHub</span>
+					</a>
+					<a class="icon-link" href="/pdf/cv-javier-gonzalez.pdf" download
+						data-i18n="contact.download" data-i18n-attr="title" aria-label="Descargar CV en PDF">
+						<i class="ri-download-line" aria-hidden="true"></i>
+						<span class="sr-only" data-i18n="contact.download"></span>
 					</a>
 				</div>
 				<div class="lang-toggle" role="group" aria-label="" data-i18n="lang.selector" data-i18n-attr="aria-label">
@@ -90,12 +123,46 @@
 
 			<section>
 				<div class="sectionTitle">
+					<h1 data-i18n="section.skills.title"></h1>
+				</div>
+
+				<div class="sectionContent">
+					<article>
+						<p class="skills-group-label" data-i18n="skills.mobile.label"></p>
+						<ul class="keySkills">
+							<li>Swift</li>
+							<li>SwiftUI</li>
+							<li>UIKit</li>
+							<li>Objective-C</li>
+							<li>Kotlin</li>
+							<li>Xcode</li>
+							<li>iOS SDK</li>
+							<li>watchOS</li>
+						</ul>
+						<p class="skills-group-label" data-i18n="skills.tooling.label"></p>
+						<ul class="keySkills">
+							<li>Fastlane</li>
+							<li>CocoaPods</li>
+							<li>SPM</li>
+							<li>CI/CD</li>
+							<li>Git</li>
+							<li>VIPER</li>
+							<li>MVP/MVVM</li>
+							<li>Agile / Scrum</li>
+						</ul>
+					</article>
+				</div>
+				<div class="clear"></div>
+			</section>
+
+			<section>
+				<div class="sectionTitle">
 					<h1 data-i18n="section.experience.title"></h1>
 				</div>
 
 				<div class="sectionContent">
 
-					<article id="contentLink">
+					<article class="contentLink">
 						<h2>iOS Lead Developer | <a href="https://www.bbvatechnology.com/europa/" target="_blank">BBVA Technology</a></h2>
 						<p class="subDetails">
 							<span data-i18n="experience.bbva.dates"></span>
@@ -111,7 +178,7 @@
 						</ul>
 					</article>
 
-					<article id="contentLink">
+					<article class="contentLink">
 						<h2>iOS Senior Developer | <a href="https://serquo.com" target="_blank">Serquo</a></h2>
 						<p class="subDetails">
 							<span data-i18n="experience.serquo.dates"></span>
@@ -127,7 +194,7 @@
 						</ul>
 					</article>
 
-					<!-- <article id="contentLink">
+					<!-- <article class="contentLink">
 						<h2>iOS Senior Developer | <a href="https://twitter.com/yudonpay" target="_blank">Yudonpay</a></h2>
 						<p class="subDetails">2019 - 2020
 						</p>
@@ -148,7 +215,7 @@
 						</p>
 					</article> -->
 
-					<article id="contentLink">
+					<article class="contentLink">
 						<h2>Mobile Developer | <a href="http://www.bitban.com/" target="_blank">Bitban Technologies S.L.</a></h2>
 						<p class="subDetails">
 							<span data-i18n="experience.bitban.dates"></span>
@@ -164,12 +231,12 @@
 						</ul>
 					</article>
 
-					<!-- <article id="contentLink">
+					<!-- <article class="contentLink">
 						<h2>Programador | <a href="http://lovestudios.es/" target="_blank">Love Studios</a></h2>
 						<p class="subDetails">2013</p>
 						<p>Desarrollo con wordpress, html5, css3, javascript y php.</p>
 					</article> -->
-					<!-- <article id="contentLink">
+					<!-- <article class="contentLink">
 						<h2>Programador | <a href="http://www.thespringlabs.com/" target="_blank">The Spring Labs</a>
 						</h2>
 						<p class="subDetails">2012</p>
@@ -208,6 +275,12 @@
 										<a class="repo-link" href="https://github.com/javierugarte/ToWatchTV-ios" target="_blank" rel="noreferrer">ToWatch TV</a>
 									</div>
 									<p data-i18n="projects.towatchtv.description"></p>
+									<ul class="project-tags">
+										<li>Swift</li>
+										<li>SwiftUI</li>
+										<li>watchOS</li>
+										<li>tvOS</li>
+									</ul>
 								</li>
 								<li>
 									<div class="repo-top">
@@ -215,6 +288,12 @@
 										<a class="repo-link" href="https://github.com/AthleticCalendar" target="_blank" rel="noreferrer">Athletic Calendar</a>
 									</div>
 									<p data-i18n="projects.athletic.description"></p>
+									<ul class="project-tags">
+										<li>Swift</li>
+										<li>UIKit</li>
+										<li>Google Calendar API</li>
+										<li>Notifications</li>
+									</ul>
 								</li>
 								<li>
 									<div class="repo-top">
@@ -222,6 +301,11 @@
 										<a class="repo-link" href="https://github.com/GourmetApp" target="_blank" rel="noreferrer">Gourmet App</a>
 									</div>
 									<p data-i18n="projects.gourmet.description"></p>
+									<ul class="project-tags">
+										<li>Swift</li>
+										<li>UIKit</li>
+										<li>Push Notifications</li>
+									</ul>
 								</li>
 								<li>
 									<div class="repo-top">

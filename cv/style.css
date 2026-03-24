@@ -21,12 +21,13 @@
 html, body {
 	height: 100%;
 	margin: 0;
+	scroll-behavior: smooth;
 	font-family: 'Inter', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 	background-color: #050608;
 	background-image:
 		radial-gradient(circle at 12% 20%, rgba(207, 138, 5, 0.18), transparent 45%),
 		radial-gradient(circle at 85% 15%, rgba(207, 138, 5, 0.08), transparent 40%),
-		radiant-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.04), transparent 45%),
+		radial-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.04), transparent 45%),
 		linear-gradient(135deg, #040506 0%, #0f1116 45%, #181c24 100%);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -34,6 +35,19 @@ html, body {
 	color: var(--text-primary);
 	font-size: 16px;
 	line-height: 1.6;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(12px); }
+	to   { opacity: 1; transform: translateY(0); }
+}
+
+.instaFade  { animation: fadeIn 0.4s ease both; }
+.quickFade  { animation: fadeIn 0.6s ease both; }
+.delayFive  { animation-delay: 0.15s; }
+
+@media (prefers-reduced-motion: reduce) {
+	.instaFade, .quickFade { animation: none; }
 }
 
 .clear {
@@ -476,13 +490,13 @@ article:hover {
 	border-color: rgba(207, 138, 5, 0.6);
 }
 
-#contentLink a {
+.contentLink a {
 	color: inherit;
 	text-decoration: none;
 	transition: color 0.25s ease;
 }
 
-#contentLink a:hover {
+.contentLink a:hover {
 	color: var(--accent);
 }
 
@@ -542,6 +556,19 @@ b {
 
 .blockSpace {
 	height: 40px;
+}
+
+.skills-group-label {
+	margin: 20px 0 10px;
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--muted);
+}
+
+.skills-group-label:first-child {
+	margin-top: 0;
 }
 
 .keySkills {

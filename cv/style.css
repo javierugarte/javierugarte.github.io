@@ -305,45 +305,6 @@ html, body {
 	margin: 0;
 }
 
-.project-highlights {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	gap: 6px;
-	color: var(--text-secondary);
-	font-size: 0.92rem;
-}
-
-.project-highlights li {
-	display: flex;
-	gap: 6px;
-}
-
-.project-highlights li::before {
-	content: '•';
-	color: var(--accent);
-	margin-top: -1px;
-}
-
-.project-tags {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 8px;
-}
-
-.project-tags li {
-	padding: 4px 10px 5px;
-	border-radius: 999px;
-	background: rgba(255, 255, 255, 0.05);
-	border: 1px solid var(--border);
-	font-size: 0.8rem;
-	color: var(--text-secondary);
-}
 
 .repo-list {
 	list-style: none;
@@ -558,35 +519,6 @@ b {
 	height: 40px;
 }
 
-.skills-group-label {
-	margin: 20px 0 10px;
-	font-size: 0.8rem;
-	font-weight: 600;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	color: var(--muted);
-}
-
-.skills-group-label:first-child {
-	margin-top: 0;
-}
-
-.keySkills {
-	list-style: none;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-	gap: 12px;
-	margin: 0;
-}
-
-.keySkills li {
-	background: rgba(255, 255, 255, 0.03);
-	border: 1px solid var(--border);
-	border-radius: var(--radius-sm);
-	padding: 10px 14px;
-	font-size: 0.95rem;
-	color: var(--text-secondary);
-}
 
 #github-widget img {
 	width: 100%;
